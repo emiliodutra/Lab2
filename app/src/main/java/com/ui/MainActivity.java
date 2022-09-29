@@ -66,5 +66,8 @@ public class MainActivity extends AppCompatActivity {
             variableBinding.radioButton.setChecked(b);
             variableBinding.radioButton.setChecked(b);
         });
+        variableBinding.myimagebutton.setOnClickListener(click -> {
+            Toast.makeText(this, "The width = " + variableBinding.myimagebutton.getMeasuredWidth() + "The height = " + variableBinding.myimagebutton.getMeasuredHeight(), Toast.LENGTH_SHORT).show();
+        });
     }
 }
