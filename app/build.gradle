@@ -6,6 +6,9 @@ android {
     namespace 'com.example.lab2'
     compileSdk 32
 
+    buildFeatures {
+        viewBinding true
+    }
     defaultConfig {
         applicationId "com.example.lab2"
         minSdk 21
