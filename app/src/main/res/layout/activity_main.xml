@@ -2,11 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/button1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/my_statusbar"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layout_marginTop="27dp"
+    android:layout_marginBottom="27dp"
+    android:layout_marginLeft="48dp"
+    android:layout_marginRight="48dp">
 
     <Button
         android:id="@+id/button"
@@ -22,7 +25,10 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:strokeColor="@color/my_primary" />
+        app:strokeColor="@color/my_primary"
+        android:nextFocusDown="@id/switch1"
+        android:nextFocusRight="@id/button2"
+        />
 
     <Button
         android:id="@+id/button2"
