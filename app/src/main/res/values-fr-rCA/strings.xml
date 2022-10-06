@@ -3,4 +3,8 @@
     <string name="app_name">Lab2</string>
     <string name="hello_message">Bonjour tout le monde:*</string>
     <string name="string_button">Je suis un button:*</string>
+    <string name="spin_message">Tourner le drapeau!%</string>
+    <string name="button1">Bonjour</string>
+    <string name="button2">Comment</string>
+    <string name="button3">ca va</string>
 </resources>

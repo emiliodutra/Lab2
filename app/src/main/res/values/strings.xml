@@ -2,4 +2,8 @@
     <string name="app_name">Lab2</string>
     <string name="hello_message">Hello World!!</string>
     <string name="string_button">I\'m a button!!</string>
+    <string name="spin_message">Spin flag</string>
+    <string name="button1">Hey</string>
+    <string name="button2">how</string>
+    <string name="button3">are you:*</string>
 </resources>
